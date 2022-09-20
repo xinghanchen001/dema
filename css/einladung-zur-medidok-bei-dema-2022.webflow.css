@@ -1,0 +1,627 @@
+.heading1 {
+  position: relative;
+  opacity: 1;
+  font-family: Futura, sans-serif;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+.section-1 {
+  display: block;
+  width: 1000px;
+  padding-top: 223px;
+  padding-bottom: 233px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.heading2 {
+  margin-top: 100px;
+  font-family: 'Futura bt', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.link {
+  font-family: 'Futura book font', sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text-span {
+  font-family: 'Futura book font', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.paragraph {
+  margin-top: 40px;
+  padding-top: 0px;
+  font-family: 'Futura bt', sans-serif;
+  color: #666;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.medidok-logo {
+  position: absolute;
+  left: 2%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
+.dmea {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+
+.div-block {
+  position: relative;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 130px;
+}
+
+.paragraph-2 {
+  margin-top: 20px;
+  padding-top: 0px;
+  font-family: 'Futura bt', sans-serif;
+  color: #666;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.heading2-capital {
+  overflow: hidden;
+  margin-top: 40px;
+  font-family: 'Futura bt', sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.kontakt-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.kontakt-button {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 80px;
+  margin-top: 100px;
+  margin-left: -69px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 3px solid #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heading2-button {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Futura bt', sans-serif;
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.background-button {
+  position: absolute;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+}
+
+.menu-section {
+  position: fixed;
+  left: 0%;
+  top: -2%;
+  right: auto;
+  bottom: 0%;
+  z-index: 50;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 1500px;
+  cursor: pointer;
+}
+
+.image {
+  position: absolute;
+  left: -25vw;
+  top: 0px;
+  height: 100%;
+  max-width: 400%;
+}
+
+.heading {
+  position: absolute;
+  left: -1%;
+  top: 45%;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+.eterminal-image {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  opacity: 0;
+}
+
+.section-menu {
+  position: fixed;
+  top: 20%;
+  z-index: 100;
+  display: none;
+  width: 1000px;
+  height: 800px;
+}
+
+.text-field {
+  height: 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.submit-button {
+  width: 400px;
+  height: 60px;
+  margin-top: 21px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+}
+
+.text-field-2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.text-field-3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.form {
+  margin-top: 41px;
+}
+
+.field-label {
+  margin-top: 0px;
+  margin-bottom: 11px;
+  float: none;
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+.heading1-menu {
+  font-family: Futura, sans-serif;
+  color: #fff;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+.field-label-2 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.field-label-3 {
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+.cancel {
+  position: fixed;
+  left: auto;
+  top: 10%;
+  right: 10%;
+  bottom: auto;
+  z-index: 100;
+  display: none;
+  width: 75px;
+  height: 75px;
+}
+
+.div-block-2 {
+  position: absolute;
+  left: -64%;
+  top: 900px;
+  right: auto;
+  bottom: 0%;
+}
+
+.image-2 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 1500px;
+  height: 1500px;
+}
+
+.image-3 {
+  position: absolute;
+  left: 90%;
+  top: -50px;
+  right: auto;
+  bottom: 0%;
+  width: 1500px;
+  height: 1500px;
+}
+
+.image-4 {
+  position: absolute;
+  left: -88.9vw;
+  top: 947px;
+  right: auto;
+  bottom: 0%;
+  z-index: 0;
+  display: block;
+  width: 1500px;
+  height: 1500px;
+}
+
+.div-block-3 {
+  overflow: hidden;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.div-block-5 {
+  overflow: hidden;
+}
+
+.div-block-6 {
+  overflow: hidden;
+}
+
+.div-block-7 {
+  overflow: hidden;
+}
+
+.div-block-8 {
+  overflow: hidden;
+}
+
+.div-block-9 {
+  overflow: hidden;
+}
+
+.div-block-10 {
+  overflow: hidden;
+}
+
+.div-block-11 {
+  overflow: hidden;
+}
+
+.image-5 {
+  position: absolute;
+  left: -30%;
+  top: 1502px;
+  right: auto;
+  bottom: 0%;
+  width: 1000px;
+  height: 1000px;
+}
+
+.div-block-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  margin-top: 77px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-color: #fff;
+}
+
+.body-2 {
+  background-color: #c5c5c5;
+}
+
+.div-block-13 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #b46464;
+}
+
+.div-block-13._1 {
+  padding-bottom: 0px;
+}
+
+.div-block-14 {
+  background-color: #ff4747;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-13._2 {
+    display: -ms-grid;
+    display: grid;
+    width: 30px;
+    height: 10rem;
+    margin-top: 134px;
+    padding-top: 0px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-2 {
+    margin-top: 198px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-14 {
+    height: 50%;
+    background-color: #4759ff;
+  }
+}
+
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Light-Italic-font.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Medium-Italic-font.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura xblk bt';
+  src: url('../fonts/Futura-XBlk-BT.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura bt';
+  src: url('../fonts/futura-medium-bt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futur';
+  src: url('../fonts/futur.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Heavy-font.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Bold-font.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura book font';
+  src: url('../fonts/Futura-Book-font.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura extra font';
+  src: url('../fonts/Futura-Extra-Black-font.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Bold-Italic-font.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura book font';
+  src: url('../fonts/Futura-Book-Italic-font.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Unicode';
+  src: url('../fonts/unicode.futurabb.ttf') format('truetype'), url('../fonts/unicode.futurab.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Heavy-Italic-font.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura bt';
+  src: url('../fonts/futura-light-bt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura font';
+  src: url('../fonts/Futura-Light-font.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura condensed bt';
+  src: url('../fonts/futura-medium-condensed-bt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tt0205m';
+  src: url('../fonts/tt0205m_.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura Condensed';
+  src: url('../fonts/Futura-CondensedLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Futura';
+  src: url('../fonts/Futura-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
